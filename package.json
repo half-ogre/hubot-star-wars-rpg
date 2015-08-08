@@ -1,7 +1,7 @@
 {
   "name": "hubot-star-wars-rpg",
   "description": "hubot scripts for playing Fantasy Flight Games' Star Wars Roleplaying games on Slack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Drew Miller <nemo@half-ogre.com>",
   "license": "BSD-3-Clause",
   "keywords": "hubot, star-wars-rpg",
