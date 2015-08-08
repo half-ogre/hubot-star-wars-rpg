@@ -1,6 +1,12 @@
+// Description
+//   hubot scripts for rolling Star Wars dice
+//
 // Commands:
 //   hubot how do I roll Star Wars dice?
 //   hubot roll {Star Wars dice}
+//
+// Author:
+//   Drew Miller <nemo@half-ogre.com>
 
 var util = require("util");
 
