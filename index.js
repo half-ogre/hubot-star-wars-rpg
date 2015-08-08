@@ -10,7 +10,7 @@ module.exports = function(robot) {
 
     files
       .sort()
-      .foreach(function(file) {
+      .forEach(function(file) {
         robot.loadFile(scriptsPath, file);
       });
   });
