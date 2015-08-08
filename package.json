@@ -1,0 +1,23 @@
+{
+  "name": "hubot-star-wars-rpg",
+  "description": "hubot scripts for playing Fantasy Flight Games' Star Wars Roleplaying games on Slack",
+  "version": "0.0.1",
+  "author": "Drew Miller <nemo@half-ogre.com>",
+  "license": "BSD-3-Clause",
+  "keywords": "hubot, star-wars-rpg",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/half-ogre/hubot-star-wars-rpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/half-ogre/star-wars-rpg/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "hubot": "2.x"
+  },
+  "main": "index.js"
+}
