@@ -12,11 +12,14 @@
   "bugs": {
     "url": "https://github.com/half-ogre/star-wars-rpg/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "peerDependencies": {
+    "coffee-script": "^1.9.x",
     "hubot": "2.x"
   },
   "devDependencies": {
+    "coffee-script": "^1.9.x",
     "hubot": "2.x"
   },
   "main": "index.js"
