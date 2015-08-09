@@ -26,3 +26,7 @@ hubot>> You rolled 3 ability and 2 difficulty with the net result of no successe
 user1>> hubot roll 3a, 2d
 hubot>> You rolled 3 ability and 2 difficulty with the net result of 2 successes and 1 threat (full result: success, success, success, advantage, failure, threat, and threat).
 ```
+
+## Testing
+
+To test the scripts locally, interactively, run: `./bin/test`.
