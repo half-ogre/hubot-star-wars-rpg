@@ -331,6 +331,6 @@ module.exports = function(robot) {
   });
 
   robot.respond(/how (do i|do you||to) roll star wars( dice)?\??/i, function(msg) {
-    msg.reply("To roll Star Wars dice, say `r2 roll {dice}` where `{dice}` is a comma-separated list of Star Wars die types, including: `boost`, `setback`, `ability`, `difficulty`, `proficiency`, `challenge`, and `force`. You can abbreviate a die type by using just its first letter. Examples: `r2 roll 2 ability, 1 proficiency, 3 difficulty` and `r2 roll 2a, 1p, 3d`.");
+    msg.reply(util.format("To roll Star Wars dice, say `%s roll {dice}` where `{dice}` is a comma-separated list of Star Wars die types, including: `boost`, `setback`, `ability`, `difficulty`, `proficiency`, `challenge`, and `force`. You can abbreviate a die type by using just its first letter. Examples: `%s roll 2 ability, 1 proficiency, 3 difficulty` and `%s roll 2a, 1p, 3d`.", robot.name, robot.name, robot.name));
   });
 }
