@@ -2,8 +2,10 @@
 //   hubot scripts for rolling Star Wars dice
 //
 // Commands:
-//   hubot how do I roll Star Wars dice?
 //   hubot roll {Star Wars dice}
+//   hubot how do I roll Star Wars dice?
+//   hubot use Star Wars dice emoji
+//   hubot stop using Star Wars dice emoji
 //
 // Author:
 //   Drew Miller <nemo@half-ogre.com>
