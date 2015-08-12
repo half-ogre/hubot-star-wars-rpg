@@ -333,4 +333,14 @@ module.exports = function(robot) {
   robot.respond(/how (do i|do you||to) roll star wars( dice)?\??/i, function(msg) {
     msg.reply(util.format("To roll Star Wars dice, say `%s roll {dice}` where `{dice}` is a comma-separated list of Star Wars die types, including: `boost`, `setback`, `ability`, `difficulty`, `proficiency`, `challenge`, and `force`. You can abbreviate a die type by using just its first letter. Examples: `%s roll 2 ability, 1 proficiency, 3 difficulty` and `%s roll 2a, 1p, 3d`.", robot.name, robot.name, robot.name));
   });
+
+  robot.respond(/use star wars dice emoji/i, function(msg) {
+    robot.brain.set("using-star-wars-dice-emoji", true);
+    msg.reply("Very good. I will use emoji for Star Wars dice and results.");
+  });
+
+  robot.respond(/stop using star wars dice emoji/i, function(msg) {
+    robot.brain.set("using-star-wars-dice-emoji", false);
+    msg.reply("Very good. I will use names for Star Wars dice and results.");
+  });
 }
